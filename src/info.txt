@@ -1,0 +1,2 @@
+Model Operationalisation goes here:
+Using MLOPs and Machine Learning Engineer practices
