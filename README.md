@@ -1,5 +1,8 @@
 # Stock Market Prediction (Implementing Time Series) - Under Development
 
+Dataset:
+Alpha Vantage API - use apple stock data
+
 Problem defination:
 
 - Predict stock prices for specific stocks or indices.
