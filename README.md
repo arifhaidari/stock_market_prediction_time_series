@@ -2,7 +2,7 @@
 
 Dataset:
 Alpha Vantage API - use apple stock data
-df["Close"].rolling, df["Close"].shift, df["Close"].diff()
+
 Problem defination:
 
 - Predict stock prices for specific stocks or indices.
