@@ -9,3 +9,9 @@ Interpolation is like filling in the gaps. It's a way to estimate missing values
 ### what is filling forward and backward in filling missing values?
 
 Forward fill maintains the last observed value until a new observation is available, while backward fill uses future values to fill in gaps. The choice between these methods depends on the nature of your data and the assumptions you're willing to make.
+
+### Are classical machine learning models are suitable for time series datasets?
+
+Yes, it is absolutely possible to train Machine Learning models like Linear Regression, Random Forest, or XGBoost using time series data. However, these models do not inherently account for the sequential nature of time series data. To use them effectively, we need to engineer features (lag variables, rolling statistics, etc.) to provide temporal context to the models.
+
+For this scenario, Random Forest or XGBoost might perform better due to their ability to handle non-linear relationships and interactions in the data. However, we’ll first demonstrate the pipeline using Linear Regression for simplicity and extend it to more advanced models if needed.
