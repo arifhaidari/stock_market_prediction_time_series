@@ -6,6 +6,36 @@ This project focuses on predicting stock prices using various time series and ma
 
 ---
 
+## Project Structure
+
+```
+.
+├── README.md
+├── data
+│   └── apple_stock_data.csv
+├── models
+│   └── lstm_stock_model.h5
+├── notebooks
+│   ├── 1-apple_stock_baseline_model.ipynb
+│   ├── 2-apple_stock_deep_learning.ipynb
+│   └── 3-prediction.ipynb
+├── reports
+│   ├── LSTM.md
+│   ├── autocorrelation.md
+│   ├── domain_terminologies.md
+│   ├── explaining_code_snippet.md
+│   ├── lag_variable.md
+│   ├── q_&_a.md
+│   ├── shift_rolling_diff.md
+│   ├── simple_moving_average.md
+│   └── stationairty.md
+├── requirements.txt
+└── src
+    └── info.txt
+```
+
+---
+
 ## Dataset
 
 **Source**: Alpha Vantage API  
